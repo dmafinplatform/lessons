@@ -1,0 +1,67 @@
+<head> 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form Elements</title>
+<h1>Forms</h1>
+<body>
+ <!-- Создаем форму для ввода имени -->
+   <form>
+  <fieldset>
+    <legend>Input your name</legend>
+    <form action="/submit" method="post">
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required>
+   </fieldset>
+    </form>
+<!-- Создаем форму для ввода электронной почты -->
+ <form>
+  <fieldset>
+    <legend>Input your email</legend>
+       <label for="e-mail">E-mail:</label>
+       <input type="email" id="e-mail" name="e-mail" required>
+   </fieldset>
+   </form>
+<!-- Создаем форму для ввода пароля -->
+  <form>
+  <fieldset>
+    <legend>Input your password</legend> <form action="/submit" method="post">
+       <label for="password">Password:</label>
+       <input type="password" id="password" name="password" required>
+   </fieldset>
+   </form>
+<!-- Создаем форму для ввода текста -->
+ <form>
+  <fieldset>
+    <legend>Input your message</legend>
+    <form action="/submit" method="post">
+       <label for="text area">Text Area:</label>
+       <textarea id="text area" name="text area" required></textarea>
+   </fieldset>
+    </form>
+</body>
+<body>
+ <!-- Создаем форму для выбора страны -->
+ <form>
+  <fieldset>
+    <legend>Choose your country</legend>
+ <label for="country">Country:</label>
+       <select id="country" name="country" required>
+           <option value="">Select your country</option>
+           <option value="us">United States</option>
+           <option value="ca">Canada</option>
+           <option value="ru">Russia</option>
+       </select>
+    </fieldset>
+    </form>
+</body>
+<body>
+    <!-- Создаем форму с кнопками отправки и сброса -->
+   <form>
+    <fieldset>
+    <legend>Submit or Reset the form</legend>
+       <button type="submit">Submit</button>
+       <button type="reset">Reset</button>
+    </fieldset>
+   </form>
+</body>
+</html>
