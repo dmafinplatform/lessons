@@ -9,41 +9,32 @@
 <h1>Forms</h1>
 <body>
  <!-- Создаем форму для ввода имени -->
-   <form>
   <fieldset>
     <legend>Input your name</legend>
-    <form action="/submit" method="post">
+    <action="/submit" method="post">
        <label for="name">Name:</label>
        <input type="text" id="name" name="name" required>
-   </fieldset>
-    </form>
-<!-- Создаем форму для ввода электронной почты -->
- <form>
+   </fieldset>    
+<!-- Создаем форму для ввода электронной почты -->   
   <fieldset>
     <legend>Input your email</legend>
        <label for="e-mail">E-mail:</label>
        <input type="email" id="e-mail" name="e-mail" required>
-   </fieldset>
-   </form>
+   </fieldset>    
 <!-- Создаем форму для ввода пароля -->
-  <form>
   <fieldset>
     <legend>Input your password</legend> <form action="/submit" method="post">
        <label for="password">Password:</label>
        <input type="password" id="password" name="password" required>
    </fieldset>
-   </form>
 <!-- Создаем форму для ввода текста -->
- <form>
   <fieldset>
     <legend>Input your message</legend>
-    <form action="/submit" method="post">
+    <action="/submit" method="post">
        <label for="text area">Text Area:</label>
        <textarea id="text area" name="text area" required></textarea>
    </fieldset>
-    </form>
  <!-- Создаем форму для выбора страны -->
- <form>
   <fieldset>
     <legend>Choose your country</legend>
  <label for="country">Country:</label>
@@ -54,7 +45,6 @@
            <option value="ru">Russia</option>
        </select>
     </fieldset>
-    </form>
     <!-- Создаем форму с кнопками отправки и сброса -->
    <form>
     <fieldset>
@@ -63,6 +53,6 @@
     <legend>Submit the form</legend>
        <button type="submit">Submit</button>
     </fieldset>
-   </form>
+    </form>
 </body>
 </html>
