@@ -1,0 +1,29 @@
+p {
+           font-size: 18px;
+       }
+h2 {
+           color: blue;
+       }
+
+#main-title {
+           text-align: center;
+       }
+#prize {
+           font-weight: bold;
+       }
+.ShadowBox {
+           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+           padding: 10px;
+           margin: 20px;
+           border: 5px solid #ccc;
+           text-align:  center;
+           background-color: bluelightyellow;
+           background-image: url("domino.jpg")  ;
+       }
+.ContainerBox {
+           border: 2px solid black;
+           padding: 15px;
+           margin: 20px;
+           background-color: lightgray;
+           text-align: center;
+       }    
