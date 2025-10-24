@@ -1,0 +1,54 @@
+p {
+           font-size: 18px;
+       }
+h2 {
+           color: #0000FF;
+       }
+
+#main-title {
+           text-align: center;
+       }
+#prize {
+           font-weight: bold;
+           width: 1000px;
+           height: 50px;
+           border: 10px solid green;
+           
+       }
+.ShadowBox {
+           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+           padding: 10px;
+           margin: 20px;
+           border: 5px solid #ccc;
+           text-align:  center;
+           background-color: bluelightyellow;
+           background-image: url("domino.jpg")  ;
+       }
+.ContainerBox {
+           width: 1000px;
+           height: 150px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+           border: 2px solid black;
+
+           background-color: lightgray;
+           text-align: center;
+       } 
+.ContBoxSmall {
+            width: 50%;
+            height: 90%;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            <!-- уменьшенный контейнер внутри большого контейнера с размерами относительными-->
+            border: 2px solid blue; 
+            padding: 1px;
+            margin: 2px;
+        }
+ .text-em {
+     font-size: 2em;
+     color: rgb(100, 200, 50) 
+     <!-- класс для увеличенного текста с цветами-->
+   }
+   .text-rem {
+     font-size: 1.5rem;  
+        color: rgba(200, 50, 100, 0.7)
+        <!-- класс для уменьшенного текста с цветами и прозрачностью-->
+    }
