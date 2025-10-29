@@ -1,0 +1,25 @@
+.button:hover {
+   background-color: #b3001e;
+   transform: scale(1.05);
+   text-size-adjust: 110%;
+}
+.button:active {
+   background-color: yellow;
+}
+.button:focus {
+   outline: 3px solid green;
+}
+.list-item:first-child {
+   font-weight: bold;
+}
+.list-item:last-child {
+   font-style: italic;
+}
+.top:hover {
+   background-color: lightblue;
+}
+.bottom:focus {
+   background-color: lightyellow;
+   color: red
+}
+<!-- Psevdo.css -->
