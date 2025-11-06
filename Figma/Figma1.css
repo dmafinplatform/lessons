@@ -98,6 +98,8 @@ nav {
     align-items: flex-start;
     flex-direction: row;
     display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
 }
 
 .bottom .logobottom {
@@ -120,6 +122,10 @@ nav {
     list-style-type: none;
     font-family: 'Arial', sans-serif;
     font-size: 17px;
+}
+
+.bottom .menubottom ul {
+    list-style-type: none;
 }
 
 .bottom .menubottom a {
