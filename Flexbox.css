@@ -1,0 +1,148 @@
+.block {
+           display: block;
+       }
+
+       .inline {
+              display: inline;
+         }
+
+.inline {
+           display: inline;
+       }
+
+       .block {
+           display: block;
+       }
+       
+.container {
+           display: flex;
+           justify-content: space-between;
+           flex-wrap: wrap;
+           align-items: center;
+           align-content: space-around;
+           height: 200px;
+           border: 2px solid black;
+           background-color: lightgrey;
+       }
+.item {
+           background-color: lightblue;
+       }
+
+.container.column {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           background-color: lightgreen;
+       }
+ 
+        .itemwrap {
+           flex: 0 0 30%;
+           margin: 20px;
+           border: 1px solid #000;
+           padding: 10px;
+           background-color: rgb(222, 222, 23);
+       }       
+
+        .itemflow {
+            flex: 1 0 30%;
+            flex-flow: row wrap ;
+            margin: 20px;
+            border: 1px solid #000;
+            padding: 10px;
+            align-content: center;
+            background-color: rgb(222, 222, 23);
+       }           
+
+         .itemshrink {
+            flex-shrink: 0.7;
+            flex-flow: row wrap ;
+            margin: 20px;
+            border: 1px solid #000;
+            padding: 10px;
+            align-content: center;
+            background-color: rgb(222, 222, 23);
+       }           
+
+         .itemgrow {
+            flex-grow: 0.7;
+            flex-flow: row wrap ;
+            margin: 20px;
+            border: 1px solid #000;
+            padding: 10px;
+            align-content: center;
+            background-color: rgb(222, 222, 23);
+       }           
+
+         .itembasis { 
+            flex: 1 1 30%;
+            flex-flow: row wrap ;
+            margin: 20px;
+            border: 1px solid #000;
+            padding: 10px;
+            align-content: center;
+            background-color: rgb(222, 222, 23);
+       }     
+       
+        .itempercent { 
+            flex: 0 0 50%;
+            flex-flow: row wrap ;
+            margin: 20px;
+            border: 1px solid #000;
+            padding: 10px;
+            align-content: center;
+            background-color: rgb(222, 222, 23);
+       }    
+       
+        .itemauto { 
+            flex: 1 1 10%;
+            flex-flow: row wrap ;
+            margin: 20px;
+            border: 1px solid #000;
+            padding: 10px;
+            align-content: center;
+            background-color: rgb(222, 222, 23);
+       }    
+
+        .itempx { 
+            flex: 0 0 100px;
+            flex-flow: row wrap ;
+            margin: 20px;
+            border: 1px solid #000;
+            padding: 10px;
+            align-content: center;
+            background-color: rgb(222, 222, 23);
+       }    
+        
+       .menu {
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           flex-wrap: wrap;
+           margin: 0;
+           flex: 1 0 100%;
+           list-style-type: none;
+           background-color: lightgrey;
+           padding: 10px;
+       }    
+
+  .card {
+  /* Стили для одной карточки */
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 30%; /* Чтобы изображение не выходило за пределы карточки */
+  height: auto;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  gap: 20px;
+}     
+
+
