@@ -65,6 +65,7 @@ header {
     height: 41px;
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .nav {
@@ -137,8 +138,8 @@ header {
     color: #242424;
 }
 
-.btn-secondary2 {
-    background-color: #f0f0f0;
+.buttons .btn-secondary2 {
+    background-color: #ffffff;
     color: #242424;
     width: 33px;
     height: 24px;
