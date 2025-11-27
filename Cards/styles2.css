@@ -126,7 +126,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
-    padding: 21px 106px;
+    padding: 20px 60px;
 }
 
 .card3 {
@@ -194,6 +194,7 @@ body {
 
 .eclipse {
     margin-right: 280px;
+    margin-left: 20px;
 }
 .box1 {
     padding: 20px 30px;
