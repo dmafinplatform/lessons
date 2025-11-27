@@ -82,6 +82,7 @@ body {
     width: fit-content;
     top: 834px;
     margin-top: auto;
+    gap: 20px;
 }
 
 .author {

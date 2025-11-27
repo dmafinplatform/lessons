@@ -1,20 +1,18 @@
 body {
     border: #598D66 solid 1px;
+    background-color: #f2f4f4;
 }
 
 .container1 {
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .menu {
    flex: 1;
    height: 200px;
    font-size: 20px;
    background-color:#598D66;
-   text-align: center;
    display: flex;
-   justify-content: center;
    align-items: center;
 }
 
@@ -40,14 +38,22 @@ body {
 }
 @media (max-width: 480px) {
    .container1 {
-       flex-direction: column;
-       column-count: 1;
+        display: flex;
+        flex-direction: column;
+        column-count: 1;  
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;     
    }
    .menu {
-
+        background-color: #598D66;
+   }
+   .btn {
+        background-color: #598D66;
+        border: none;
    }
    .mobile1 {
-        gap: 100px;
+        
    }
    .mobile2 {
         display:none;
@@ -56,9 +62,14 @@ body {
         display:none;
    }
    .left{
-        margin-left: 10px;
+        padding-left: 10px;
+        background-color:#598D66;
    }
-   .star {
+   .right {
+        margin-left: 200px;
+        background-color:#598D66;
+   }
+    .star {
         align-items: center;
         width: 143px;
         height: 53px;
@@ -69,9 +80,144 @@ body {
    .mobile1 {
 
    }
+   .bird {
+        display: none;
+   }
+   .container2 {
+        width: 290px;
+        height: 233px;
+        margin-top: 60px;
+        margin-left: 15px;
+        background-color: #f2f4f4;
+   }
+   .replica {
+        font-weight: 500;
+        size: 30px;
+        line-height: 100%;
+        margin-bottom: 20px;
+   }
+   .replica::after {
+        content: "Inc. House";
+        color:#598D66;
+        font-weight: 500;
+        size: 30px;
+        line-height: 100%;
+        margin-bottom: 20px;
+   }
+   .details {
+        width: 290px;
+        height: 63px;
+        size: 14px;
+        line-height: 150%;
+        color: #86928B;
+        margin-bottom: 40px;
+   }
+   .btn2 {
+        width: 154px;
+        height: 50px;
+        background-color: #f2f4f4;
+        font-weight: 500px;
+        font-size: 18px;
+        line-height: 100%;
+        color: #598D66;
+        border:1px solid #598D66;
+        align-content: center;
+        align-items: center;
+        padding: 20px 60px 20px 60px;
+        gap: 6px;
+   }
+
 
 @media (max-width: 690px) {
+   .container1 {
+       width: 576px;
+       height: 123px;
+       flex-direction: column;
+       column-count: 2;
+       background-color: #598D66;
 
+   }
+   .menu {
+        background-color: #598D66;
+   }
+   .btn {
+        background-color: #598D66;
+        border: none;
+   }
+   .mobile1 {
+        
+   }
+   .mobile2 {
+        display:none;
+   }
+   .mobile4 {
+        display:none;
+   }
+   .left{
+        padding-left: 10px;
+        background-color:#598D66;
+   }
+   .right {
+        margin-left: 200px;
+        background-color:#598D66;
+   }
+    .star {
+        align-items: center;
+        width: 143px;
+        height: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;   
+   }
+   .mobile1 {
+
+   }
+   .bird {
+        display: none;
+   }
+   .container2 {
+        width: 290px;
+        height: 233px;
+        margin-top: 60px;
+        margin-left: 15px;
+        background-color: #f2f4f4;
+   }
+   .replica {
+        font-weight: 500;
+        size: 30px;
+        line-height: 100%;
+        margin-bottom: 20px;
+   }
+   .replica::after {
+        content: "Inc. House";
+        color:#598D66;
+        font-weight: 500;
+        size: 30px;
+        line-height: 100%;
+        margin-bottom: 20px;
+   }
+   .details {
+        width: 290px;
+        height: 63px;
+        size: 14px;
+        line-height: 150%;
+        color: #86928B;
+        margin-bottom: 40px;
+   }
+   .btn2 {
+        width: 154px;
+        height: 50px;
+        background-color: #f2f4f4;
+        font-weight: 500px;
+        font-size: 18px;
+        line-height: 100%;
+        color: #598D66;
+        border:1px solid #598D66;
+        align-content: center;
+        align-items: center;
+        padding: 20px 60px 20px 60px;
+        gap: 6px;
+   }
 }   
 
 @media (max-width: 1024px) {
