@@ -132,9 +132,7 @@ body {
    .container1 {
        width: 576px;
        height: 123px;
-       flex-direction: column;
-       column-count: 2;
-       background-color: #598D66;
+
 
    }
    .menu {
@@ -168,6 +166,9 @@ body {
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;   
+          flex-direction: column;
+          column-count: 2;
+          background-color: #598D66;
    }
    .mobile1 {
 
