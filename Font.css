@@ -1,0 +1,38 @@
+body h1 {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blue;
+}
+
+body p {
+    font-family: "Playwrite US Trad Guides", "New Times Roman", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button:hover {
+   background-color: #b3001e;
+   transform: scale(1.05);
+   text-size-adjust: 110%;
+}
+.button:active {
+   background-color: yellow;
+}
+.button:focus {
+   outline: 3px solid green;
+}
+.list-item:first-child {
+   font-weight: bold;
+}
+.list-item:last-child {
+   font-style: italic;
+}
+.top:hover {
+   background-color: lightblue;
+}
+.bottom:focus {
+   background-color: lightyellow;
+   color: red
+}
+<!-- Psevdo.css -->

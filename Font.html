@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SuperLiga</title>
+        <link rel="stylesheet" href="Font.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+<h1>Супер Лига</h1>
+<p>Добро пожаловать в Супер Лигу!</p>
+<h2>Выбираете вашу команду</h2>
+<p>Например, Манчестер Юнайтед<br>Либо, Реал Мадрид<br> Далее от успеха команды, которая рассчитывается от силы лиги, вашего взноса, трансферов, подборов команд-соперниц (автоматически подобранных), определяет место вашей команды в вашей суперлиге </p>
+<fieldset>
+    <legend >Input your team</legend>
+    <action="/submit" method="post">
+       <label for="Team">Name:</label>
+       <input class="button" id="name" name="name" required>
+   </fieldset>   
+   <form>
+    <fieldset>
+    <legend>Confrim your team</legend>
+       <button class="button"> Confirm</button>        
+    </fieldset>
+    </form>
+<h2>Список команд</h2>
+<ul class="list">
+<! псевдокласс    
+       <li class="list-item top">Real Madrid 1000</li>
+       <li class="list-item">Manchester United 950</li>
+       <li class="list-item">Barcelona 938</li>
+       <li class="list-item">Bayern Munich 932</li>
+       <li class="list-item bottom">Juventus 920</li>
+   </ul>
+<div class="ShadowBox">
+    <img src ="superliga.jpg" alt="SuperLiga" width="200" height="150">
+  <p>Join the Super Liga now!</p></div>
+<div class="text-box">
+<h2>Top Teams</h2>
+<!-- псевдокласс для стилизации текста -->
+<p class="bottom">Here are the top teams in the Super Liga:</p>
+</div>
+<! псевдокласс для стилизации текста >
+<p class = top> top teams at the moment</p>
+<!-- нумерованный список -->
+<ol class="list">
+         <li class="list-item">Real Madrid</li>
+         <li class="list-item">Manchester United</li>
+         <li class="list-item">Barcelona</li>
+</ol>
+</div>
+</body>
+</html>
