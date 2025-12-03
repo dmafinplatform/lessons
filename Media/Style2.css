@@ -126,7 +126,7 @@ body {
         padding: 20px 60px 20px 60px;
         gap: 6px;
    }
-
+}
 
 @media (max-width: 690px) {
    .container1 {

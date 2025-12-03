@@ -9,6 +9,7 @@ body {
     transform: rotate(300deg);
     margin-top: 50px;
     margin-bottom: 30px;
+    animation: rotate 2s infinite;
 }
 
 @keyframes rotate {
@@ -84,7 +85,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: red;
-    animation: 2s;
+    animation: frames 2s;
 }
 
     @keyframes frames {
