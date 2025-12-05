@@ -1,0 +1,60 @@
+.box {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+}
+
+.box1::before {
+   content: "Вставлено перед содержимым.";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+}
+
+.box3::after {
+   content: "Вставлено после содержимого.";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+}
+
+.box2::before {
+   content: "Вставлено перед содержимым.";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+}
+
+.box4::after {
+   content: "Вставлено после содержимого.";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+}
+
+.paragraph::first-letter {
+   font-size: 2em;
+   font-weight: bold;
+   color: #ff0000;
+}
+
+.paragraph::first-line {
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.paragraph::before {
+    content: " ";
+    background-color: #007bff;
+    width: 2px;
+    height: 25px;
+    float: left;
+}
+
+.paragraph::after {
+    content: " ";
+    background-color: #007bff;
+    width: 200px;
+    height: 25px;
+    float: right;
+}
