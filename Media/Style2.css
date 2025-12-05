@@ -4,79 +4,143 @@ body {
 }
 
 .container1 {
-    justify-content: space-between;
-    flex-wrap: wrap;
+     align-items: center;
+     justify-items: center;
+     width: 100vw;
 }
 .menu {
-   flex: 1;
-   height: 200px;
-   font-size: 20px;
-   background-color:#598D66;
-   display: flex;
-   align-items: center;
+     background-color: #D4E8D9;
+     width: 100vw;
 }
 
 .star {
-    color: #598D66;
-    weight: 700;
-    size: 20px;
-    line-height: 100%;
-    font-family: Raleway;
+     display: flex;
+     color: #D4E8D9;
+     justify-content: space-around;
+     align-items: center;
+     width: 133px;
+     height: 65px;
+     font-family: "Raleway", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 700;
+     font-style: normal;
+}
+
+.mobile1 {
+     background-color:#D4E8D9 ;
+     margin: 0px auto;
+     width: max-content;
+     height: 65px;
+     align-content: center;
+
+}
+
+.btnLeft {
+     float: left;
+     border: none;
+     color: #598D66;
+     background-color: #D4E8D9;
+}
+
+.btnRight {
+     float: right;
+     border: none;
+     color: #598D66;
+     background-color: #D4E8D9;
 }
 
 .menu .mobile2 a{
-    text-decoration: none;
+
 }
 
 .menu .mobile2 ul{
-    list-style-type: none;
+   
 }
 
 .menu .mobile1 {
-    background-color: #598D66;
+  
 
 }
+
+.btn {
+     border: none;
+     color: #598D66;
+     background-color: #598D66;
+}
+
+.replica {
+     width: 285px;
+     height: 60px;
+     font-weight: 500;
+     font-size: 30px;
+     font-family: "Raleway";
+     margin-bottom: 20px;
+}
+
+.replica::after {
+        content: "Inc. House";
+        color:#598D66;
+        font-family: "Raleway";
+        font-weight: 500;
+        size: 30px;
+        line-height: 100%;
+        margin-bottom: 20px;
+}
+
+   .details {
+        width: 290px;
+        height: 63px;
+        font-family: "Raleway";
+        size: 14px;
+        line-height: 150%;
+        color: #86928B;
+        margin-bottom: 60px;
+   }
+
+.btn2 {
+        width: 154px;
+        height: 50px;
+        background-color: #f2f4f4;
+        font-weight: 500px;
+        font-size: 18px;
+        line-height: 100%;
+        font-family: "Raleway";
+        color: #598D66;
+        border:1px solid #598D66;
+        align-content: center;
+        align-items: center;
+        padding: 20px 60px 20px 60px;
+        gap: 6px;
+   }
+
+
 @media (max-width: 480px) {
    .container1 {
-        display: flex;
-        flex-direction: column;
-        column-count: 1;  
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;     
+
    }
    .menu {
-        background-color: #598D66;
+   
    }
    .btn {
-        background-color: #598D66;
-        border: none;
+ 
    }
    .mobile1 {
         
    }
    .mobile2 {
-        display:none;
+     display:none;
    }
+
    .mobile4 {
         display:none;
    }
    .left{
-        padding-left: 10px;
-        background-color:#598D66;
+    
    }
    .right {
-        margin-left: 200px;
-        background-color:#598D66;
+
    }
-    .star {
-        align-items: center;
-        width: 143px;
-        height: 53px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-   }
+ 
    .mobile1 {
 
    }
@@ -84,152 +148,115 @@ body {
         display: none;
    }
    .container2 {
-        width: 290px;
-        height: 233px;
-        margin-top: 60px;
-        margin-left: 15px;
-        background-color: #f2f4f4;
+  
    }
    .replica {
-        font-weight: 500;
-        size: 30px;
-        line-height: 100%;
-        margin-bottom: 20px;
+
    }
    .replica::after {
-        content: "Inc. House";
-        color:#598D66;
-        font-weight: 500;
-        size: 30px;
-        line-height: 100%;
-        margin-bottom: 20px;
+ 
+     
    }
    .details {
-        width: 290px;
-        height: 63px;
-        size: 14px;
-        line-height: 150%;
-        color: #86928B;
-        margin-bottom: 40px;
+
    }
    .btn2 {
-        width: 154px;
-        height: 50px;
-        background-color: #f2f4f4;
-        font-weight: 500px;
-        font-size: 18px;
-        line-height: 100%;
-        color: #598D66;
-        border:1px solid #598D66;
-        align-content: center;
-        align-items: center;
-        padding: 20px 60px 20px 60px;
-        gap: 6px;
+ 
+   
    }
 }
 
 @media (max-width: 690px) {
    .container1 {
-       width: 576px;
-       height: 123px;
-
-
+     background-color:#D4E8D9;
    }
    .menu {
-        background-color: #598D66;
+     
    }
-   .btn {
-        background-color: #598D66;
-        border: none;
+   .name {
+
+   }
+
+   .btnLeft {
+     display: none;
+   }
+     .btnRight {
+     display: none;
    }
    .mobile1 {
         
    }
+
    .mobile2 {
-        display:none;
+     text-decoration: none;
+   }
+
+   .mobile2 ul {
+     list-style-type: none;
+   }
+
+   .mobile3 {
+     display: none;
    }
    .mobile4 {
-        display:none;
+  
    }
    .left{
-        padding-left: 10px;
-        background-color:#598D66;
+  
    }
    .right {
-        margin-left: 200px;
-        background-color:#598D66;
+
    }
-    .star {
-        align-items: center;
-        width: 143px;
-        height: 35px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;   
-          flex-direction: column;
-          column-count: 2;
-          background-color: #598D66;
+   .star {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 133px;
+     height: 65px;
+     font-family: "Raleway", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 700;
+     font-style: normal;
+     color: #598D66;
    }
-   .mobile1 {
+   .ipad {
+     display: grid;
+     grid-template-columns: 4fr 1fr;
+   }
+   .mobile2 ul {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     text-decoration: none;
+     align-items: center;
+     justify-content: space-between;
 
    }
    .bird {
-        display: none;
+      width: 195px;
+      height: 239px;  
    }
    .container2 {
-        width: 290px;
-        height: 233px;
-        margin-top: 60px;
-        margin-left: 15px;
-        background-color: #f2f4f4;
+     width: 510px;
+     height: 239px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+
    }
    .replica {
-        font-weight: 500;
-        size: 30px;
-        line-height: 100%;
-        margin-bottom: 20px;
+
    }
    .replica::after {
-        content: "Inc. House";
-        color:#598D66;
-        font-weight: 500;
-        size: 30px;
-        line-height: 100%;
-        margin-bottom: 20px;
+
+  
    }
    .details {
-        width: 290px;
-        height: 63px;
-        size: 14px;
-        line-height: 150%;
-        color: #86928B;
-        margin-bottom: 40px;
+ 
    }
    .btn2 {
-        width: 154px;
-        height: 50px;
-        background-color: #f2f4f4;
-        font-weight: 500px;
-        font-size: 18px;
-        line-height: 100%;
-        color: #598D66;
-        border:1px solid #598D66;
-        align-content: center;
-        align-items: center;
-        padding: 20px 60px 20px 60px;
-        gap: 6px;
+
    }
 }   
 
 @media (max-width: 1024px) {
-   .block {
-       font-size: 16px;
-       height: 330px;
-       color: blue;
-   }
-}
 
-   .block {
-       color: red;
-   }
 }
