@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #141414;
+}
+
+.header {
+    padding: 40px 50px 10px 50px;
+    background-color: #141414;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 160px;
+    height: 33px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    gap: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    font: Dm Sans;
+    transition: color 0.3s ease;
+}
+
+.header__menu a:hover {
+    color: #118DA8;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero__image{
+    width: 650px;
+    height: 873.44px;
+    margin-right: 50px;
+}
+
+.hero__content{
+    max-width: 500px;
+}
+
+.hero__content h2{
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    line-height: 88px;
+    margin-top: 300px;
+    margin-bottom: 80px;
+}
+
+.hero_content h2 span{
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.hero__content p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.hero__content__platforms{
+    margin-top: 20px;
+}
+
+.hero__content__platforms__icons{
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.bottom {
+    align-items: flex-start;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+}
+
+.bottom__logo {
+    width: 224px;
+    height: 46px;
+    margin-top: 10px;
+}
+
+.bottom__icons{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    display: flex; 
+}
+
+.bottom__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style-type: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+}
+
+.bottom__menu ul {
+    list-style-type: none;
+}
+
+.bottom__menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    font: Dm Sans;
+    transition: color 0.3s ease;
+}
+
+.bottom__menu a:hover {
+    color: #118DA8;
+
+}
+
+.bottom__platforms{
+    margin-top: 20px;
+}
+
+.bottom__platforms__icons{
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
