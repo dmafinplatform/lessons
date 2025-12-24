@@ -25,9 +25,9 @@ if (age < 18) {
 }
 
 
-let userInput = prompt("Введите число:");
-let number = Number(userInput);
-let result = (number % 2 === 0) ? "Четное число" : "Нечетное число";
+let userInputTwo = prompt("Введите число:");
+let numberTwo = Number(userInputTwo);
+let result = (numberTwo % 2 === 0) ? "Четное число" : "Нечетное число";
 console.log(result);
 
 let dayInput = prompt("Введите номер дня недели (1-7):");
