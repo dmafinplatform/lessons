@@ -1,65 +1,53 @@
-let button = document.getElementById("jsButton");
-button.addEventListener("click", function() {
-    console.log("Событие обработано через JS");
+const myButton = document.querySelector('button');
+    myButton.addEventListener('click', function() {
+    console.log('Кнопка нажата (через addEventListener)!');
+    });
+
+
+const button = document.getElementById('jsButton');
+    button.addEventListener('click', function() {
+    console.log('Событие обработано через JS');
 });
 
-
-let myDiv = document.createElement("div");
-myDiv.id = "myDiv";
-myDiv.style.width = "200px";
-myDiv.style.height = "200px";
-myDiv.style.border = "1px solid black";
-document.body.appendChild(myDiv);
-myDiv.addEventListener("click", function() {
-    myDiv.style.backgroundColor = "blue";
-});
-myDiv.addEventListener("mouseover", function() {
-    console.log("Элемент нажат");
+const myDiv = document.getElementById('myDiv');
+    myDiv.addEventListener('click', () => {
+    myDiv.style.backgroundColor = 'blue';
 });
 
-
-let textInput = document.createElement("input");
-textInput.type = "text";
-textInput.id = "textInput";
-document.body.appendChild(textInput);
-textInput.addEventListener("keyup", function(event) {
-    console.log(event.target.value);
+    myDiv.addEventListener('mouseenter', () => {
+    console.log('Элемент нажат при наведении курсора');
 });
 
+const textInput = document.getElementById('textInput');
+textInput.addEventListener('keyup', function(event) {
+        console.log(event.target.value);
+    });
 
+const link = document.getElementById('myLink');
 
-let myLink = document.createElement("a");
-myLink.href = "https://example.com";
-myLink.id = "myLink";
-myLink.textContent = "Перейти на сайт";
-document.body.appendChild(myLink);
-myLink.addEventListener("click", function(event) {
-    event.preventDefault();
-    console.log("Переход по ссылке отменен");
-});
+  link.addEventListener('click', function(event) {
+    event.preventDefault(); // Предотвращает стандартное поведение (переход)
+    console.log('Переход по ссылке отменен');
+  });
 
+const list = document.getElementById('myList');
 
-let myList = document.createElement("ul");
-myList.id = "list";
-let items = ["Элемент 1", "Элемент 2", "Элемент 3"];
-items.forEach(function(itemText) {
-    let listItem = document.createElement("li");
-    listItem.textContent = itemText;
-    myList.appendChild(listItem);
-});
-document.body.appendChild(myList);
-myList.addEventListener("click", function(event) {
-    if (event.target && event.target.nodeName === "LI") {
+list.addEventListener('click', function(event) {
+    if (event.target.tagName === 'LI') {
         console.log(event.target.textContent);
     }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const inputElement = document.getElementById('keyboardInput');
 
-let keyboardInput = document.createElement("input");
-keyboardInput.type = "text";
-keyboardInput.id = "keyboardInput";
-document.body.appendChild(keyboardInput);
-keyboardInput.addEventListener("keydown", function(event) {
-    console.log("Код нажатой клавиши: " + event.key);
+    inputElement.addEventListener('keydown', function(event) {
+        console.log('Нажата клавиша:');
+        console.log('Код клавиши (key):', event.key); 
+        console.log('Физический код (code):', event.code); 
+    });
 });
+});
+
+
 
